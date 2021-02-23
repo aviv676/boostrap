@@ -1,0 +1,271 @@
+
+body {
+    font-family: "Inconsolata", sans-serif;
+    color: #0d1e2d;
+    overflow-x: hidden;
+  }
+.custom-navbar {
+    padding-top:0px;
+    width: 100%;
+  }
+  
+  @media (max-width: 780px) {
+    .custom-navbar > .container {
+      padding-right: 0;
+      padding-left: 0;
+      top:0px;
+    }
+  }
+  
+  .custom-navbar .navbar-brand {
+    position: absolute;
+    left: 120px;
+    font-size: 1.6rem;
+    font-family: Montserrat;
+    color: black;
+    top: 0px;
+  }
+  .filters a {
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-family: nunito sans;
+    font-size: 18px;
+    left: 400px;
+    top : 20px;
+    display: inline-block;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+  }
+  
+  .filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  .button{
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+  color:black;
+      background:pink;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px white;
+      transition: all ease-in-out 0.3s;
+      font-size: 13px;
+      white-space: nowrap;
+  }
+  
+.gambarpojok{
+    position: absolute;
+    left: 1000px;
+    right: -0.1%;
+    top:-70px;
+    bottom:none;
+    transform: rotate(-18.43deg);
+}
+.help
+{
+  padding-top:100px;
+  font-family:sans-serif;
+  font-size:30px;
+  padding-left: 115px;
+  font-weight: bold;
+  margin-top: -450px;
+}
+.tulisan{
+    padding-left: 115px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  .buttona{
+    color:white;
+      background: #744FC6;
+      padding: 9px 15px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px  #744FC6;
+      font-family: sans-serif;
+  }
+  .buttonb{
+    color:black;
+      background:#FFFFFF;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border:pink;
+      font-family: sans-serif;
+  }
+  .button1{
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+#up{
+    position: absolute;
+    border-radius: 0px 16px 16px 0px;
+}
+.box{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 400px;
+    margin: 3rem auto 8.1rem auto;
+    width: 650px;
+    left: 550px;
+    position: relative;
+    position: absolute;
+    top: 500px;
+}
+#bulet{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+#bulet2{
+    position: absolute;
+    left: 50px;
+    top: 130px;
+}
+#bulet3{
+    position: absolute;
+    left: 50px;
+    top: 230px;
+}
+#bulet4{
+    position: absolute;
+    left: 50px;
+    top: 330px;
+}
+.bul{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    font-style: normal;
+    font-size: 18px;
+    color: #744FC6;
+}
+#bul{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    font-style: normal;
+    font-size: 15px;
+}
+.bul1{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    font-style: normal;
+    font-size: 18px;
+    color: #744FC6;
+}
+#bul1{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 135px;
+    font-style: normal;
+    font-size: 15px;
+}
+.bul2{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    font-style: normal;
+    font-size: 18px;
+    color: #744FC6;
+}
+#bul2{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 235px;
+    font-style: normal;
+    font-size: 15px;
+}
+.bul3{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 310px;
+    font-style: normal;
+    font-size: 18px;
+    color: #744FC6;
+}
+#bul3{
+    position: relative;
+    position: absolute;
+    left: 100px;
+    top: 335px;
+    font-style: normal;
+    font-size: 15px;
+}
+#kot{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1050px;
+}
+#kot2{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1050px;
+}
+.box2{
+    background: #e6f1ff;
+    height: 200px; 
+    width: 1350px;
+    left: 0px;
+    position: relative;
+    position: absolute;
+    top: 1100px;
+}
+#text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#text2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 80px;
+    margin-left: 800px;
+    position: absolute;
+    width: 437px;
+    height: 60px;
+}
